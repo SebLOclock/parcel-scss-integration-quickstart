@@ -1,0 +1,17 @@
+{
+  "name": "parcel-integration-template",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "clear": "rd -r dist /S /Q; rd -r .cache /S /Q"
+  },
+  "author": "Sébastien Lemoine",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
